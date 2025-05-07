@@ -1,0 +1,112 @@
+<html>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f4f4f4;
+      background-image: url("images\ \(18\).jpeg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      backdrop-filter: blur(10px);
+      font-weight: bold;
+      font-size: 20px;
+    }
+    header {
+      background-color: rgba(30,10,300,50%);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    #header{
+            background-color:  rgba(120,120,120,50%);
+            color: white;
+            font-size: 20px;
+            padding: 2px;
+            margin: -15px;
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+    #header a{
+            color: white;
+            transition: all, 900ms;
+            opacity: 100%;
+        }
+    #header a:hover{
+            color: aqua;
+            font-size: 30px;
+        }
+    ul{
+            display: flex;
+            list-style-type: none;
+            gap: 70px;
+            text-align: center;
+        }
+    .container {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .news-card {
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+    .news-card:hover {
+      transform: scale(1.02);
+    }
+    .news-card h3 {
+      margin-top: 0;
+      color: #1a73e8;
+    }
+    .news-card p {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ddd;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+    <div id="header">
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="ai.html" target="_blank">Artificial Intelligence</a></li>
+            <li><a href="deep.html" target="_blank">Deep Learning</a></li>
+            <li><a href="ml.html" target="_blank">Machine Learning</a></li>
+            <li><a href="contact.html" target="_blank">Contact us</a></li>
+            <li><a href="news.html" target="_blank">News</a></li>
+        </ul>
+    </div><br><br>
+  <header>
+    <h1>DailyPulse - Your Trusted News Source</h1>
+    <p>Latest headlines from around the world - May 2025</p>
+  </header>
+
+  <div class="container">
+    <div class="news-card">
+      <h3>India Launches Gaganyaan Uncrewed Mission</h3>
+      <p>ISRO successfully conducted the second uncrewed flight of the Gaganyaan mission, testing critical re-entry systems. The manned mission is planned for 2025 end.</p>
+    </div>
+    <div class="news-card">
+      <h3>OpenAI Introduces GPT-4.5 Turbo Update</h3>
+      <p>OpenAI announced a performance boost to its GPT-4.5 Turbo model, with faster response time and better multilingual support, ahead of its upcoming o4-mini release.</p>
+    </div>
+    <div class="news-card">
+      <h3>Apple Set to Unveil iOS 19 at WWDC 2025</h3>
+      <p>Apple is expected to introduce iOS 19 with AI-powered features and tighter integration with Vision Pro at its developer conference this June.</p>
+    </div>
+    <div class="news-card">
+        
+        <h3>UAE to teach its children AI</h3>
+        <p>The United Arab Emirates looks set to integrating AI education in its schools’ curricula, meaning all children from kindergarten to high school will learn about the technology, how it can be used day-to-day, and the best ways to implement the various types of models.</p>
+    </div>
+  </div>
+</body>
+</html>
